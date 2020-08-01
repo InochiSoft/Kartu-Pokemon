@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- red -->
+    <style name="Theme.Red" parent="AppTheme">
+        <item name="colorPrimary">@color/red_600</item>
+        <item name="colorPrimaryDark">@color/red_900</item>
+    </style>
+    <style name="Theme.Red.NoActionBar" parent="Theme.Red">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Red.ActionBar" parent="Theme.Red">
+        <item name="android:colorBackground">@color/red_600</item>
+        <item name="android:colorBackgroundCacheHint">@color/red_400</item>
+    </style>
+    <style name="Theme.Red.AppBarOverlay" parent="AppTheme.AppBarOverlay" />
+    <style name="Theme.Red.PopupOverlay" parent="AppTheme.PopupOverlay" />
+
+    <!-- deep_purple -->
+    <style name="Theme.DeepPurple" parent="AppTheme">
+        <item name="colorPrimary">@color/deep_purple_600</item>
+        <item name="colorPrimaryDark">@color/deep_purple_900</item>
+    </style>
+    <style name="Theme.DeepPurple.NoActionBar" parent="Theme.DeepPurple">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.DeepPurple.ActionBar" parent="Theme.DeepPurple">
+        <item name="android:colorBackground">@color/deep_purple_600</item>
+        <item name="android:colorBackgroundCacheHint">@color/deep_purple_400</item>
+    </style>
+    <style name="Theme.DeepPurple.AppBarOverlay" parent="AppTheme.AppBarOverlay" />
+    <style name="Theme.DeepPurple.PopupOverlay" parent="AppTheme.PopupOverlay" />
+
+    <!-- light_blue -->
+    <style name="Theme.LightBlue" parent="AppTheme">
+        <item name="colorPrimary">@color/light_blue_600</item>
+        <item name="colorPrimaryDark">@color/light_blue_900</item>
+    </style>
+    <style name="Theme.LightBlue.NoActionBar" parent="Theme.LightBlue">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.LightBlue.ActionBar" parent="Theme.LightBlue">
+        <item name="android:colorBackground">@color/light_blue_600</item>
+        <item name="android:colorBackgroundCacheHint">@color/light_blue_400</item>
+    </style>
+    <style name="Theme.LightBlue.AppBarOverlay" parent="AppTheme.AppBarOverlay" />
+    <style name="Theme.LightBlue.PopupOverlay" parent="AppTheme.PopupOverlay" />
+
+    <!-- green -->
+    <style name="Theme.Green" parent="AppTheme">
+        <item name="colorPrimary">@color/green_600</item>
+        <item name="colorPrimaryDark">@color/green_900</item>
+    </style>
+    <style name="Theme.Green.NoActionBar" parent="Theme.Green">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Green.ActionBar" parent="Theme.Green">
+        <item name="android:colorBackground">@color/green_600</item>
+        <item name="android:colorBackgroundCacheHint">@color/green_400</item>
+    </style>
+    <style name="Theme.Green.AppBarOverlay" parent="AppTheme.AppBarOverlay" />
+    <style name="Theme.Green.PopupOverlay" parent="AppTheme.PopupOverlay" />
+
+    <!-- yellow -->
+    <style name="Theme.Yellow" parent="AppTheme">
+        <item name="colorPrimary">@color/yellow_600</item>
+        <item name="colorPrimaryDark">@color/yellow_900</item>
+    </style>
+    <style name="Theme.Yellow.NoActionBar" parent="Theme.Yellow">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Yellow.ActionBar" parent="Theme.Yellow">
+        <item name="android:colorBackground">@color/yellow_600</item>
+        <item name="android:colorBackgroundCacheHint">@color/yellow_400</item>
+    </style>
+    <style name="Theme.Yellow.AppBarOverlay" parent="AppTheme.AppBarOverlay" />
+    <style name="Theme.Yellow.PopupOverlay" parent="AppTheme.PopupOverlay" />
+
+    <!-- deep_orange -->
+    <style name="Theme.DeepOrange" parent="AppTheme">
+        <item name="colorPrimary">@color/deep_orange_600</item>
+        <item name="colorPrimaryDark">@color/deep_orange_900</item>
+    </style>
+    <style name="Theme.DeepOrange.NoActionBar" parent="Theme.DeepOrange">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.DeepOrange.ActionBar" parent="Theme.DeepOrange">
+        <item name="android:colorBackground">@color/deep_orange_600</item>
+        <item name="android:colorBackgroundCacheHint">@color/deep_orange_400</item>
+    </style>
+    <style name="Theme.DeepOrange.AppBarOverlay" parent="AppTheme.AppBarOverlay" />
+    <style name="Theme.DeepOrange.PopupOverlay" parent="AppTheme.PopupOverlay" />
+
+    <!-- blue_grey -->
+    <style name="Theme.BlueGrey" parent="AppTheme">
+        <item name="colorPrimary">@color/blue_grey_600</item>
+        <item name="colorPrimaryDark">@color/blue_grey_900</item>
+    </style>
+    <style name="Theme.BlueGrey.NoActionBar" parent="Theme.BlueGrey">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.BlueGrey.ActionBar" parent="Theme.BlueGrey">
+        <item name="android:colorBackground">@color/blue_grey_600</item>
+        <item name="android:colorBackgroundCacheHint">@color/blue_grey_400</item>
+    </style>
+    <style name="Theme.BlueGrey.AppBarOverlay" parent="AppTheme.AppBarOverlay" />
+    <style name="Theme.BlueGrey.PopupOverlay" parent="AppTheme.PopupOverlay" />
+
+    <!-- pink -->
+    <style name="Theme.Pink" parent="AppTheme">
+        <item name="colorPrimary">@color/pink_600</item>
+        <item name="colorPrimaryDark">@color/pink_900</item>
+    </style>
+    <style name="Theme.Pink.NoActionBar" parent="Theme.Pink">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Pink.ActionBar" parent="Theme.Pink">
+        <item name="android:colorBackground">@color/pink_600</item>
+        <item name="android:colorBackgroundCacheHint">@color/pink_400</item>
+    </style>
+    <style name="Theme.Pink.AppBarOverlay" parent="AppTheme.AppBarOverlay" />
+    <style name="Theme.Pink.PopupOverlay" parent="AppTheme.PopupOverlay" />
+
+    <!-- indigo -->
+    <style name="Theme.Indigo" parent="AppTheme">
+        <item name="colorPrimary">@color/indigo_600</item>
+        <item name="colorPrimaryDark">@color/indigo_900</item>
+    </style>
+    <style name="Theme.Indigo.NoActionBar" parent="Theme.Indigo">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Indigo.ActionBar" parent="Theme.Indigo">
+        <item name="android:colorBackground">@color/indigo_600</item>
+        <item name="android:colorBackgroundCacheHint">@color/indigo_400</item>
+    </style>
+    <style name="Theme.Indigo.AppBarOverlay" parent="AppTheme.AppBarOverlay" />
+    <style name="Theme.Indigo.PopupOverlay" parent="AppTheme.PopupOverlay" />
+
+    <!-- cyan -->
+    <style name="Theme.Cyan" parent="AppTheme">
+        <item name="colorPrimary">@color/cyan_600</item>
+        <item name="colorPrimaryDark">@color/cyan_900</item>
+    </style>
+    <style name="Theme.Cyan.NoActionBar" parent="Theme.Cyan">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Cyan.ActionBar" parent="Theme.Cyan">
+        <item name="android:colorBackground">@color/cyan_600</item>
+        <item name="android:colorBackgroundCacheHint">@color/cyan_400</item>
+    </style>
+    <style name="Theme.Cyan.AppBarOverlay" parent="AppTheme.AppBarOverlay" />
+    <style name="Theme.Cyan.PopupOverlay" parent="AppTheme.PopupOverlay" />
+
+    <!-- light_green -->
+    <style name="Theme.LightGreen" parent="AppTheme">
+        <item name="colorPrimary">@color/light_green_600</item>
+        <item name="colorPrimaryDark">@color/light_green_900</item>
+    </style>
+    <style name="Theme.LightGreen.NoActionBar" parent="Theme.LightGreen">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.LightGreen.ActionBar" parent="Theme.LightGreen">
+        <item name="android:colorBackground">@color/light_green_600</item>
+        <item name="android:colorBackgroundCacheHint">@color/light_green_400</item>
+    </style>
+    <style name="Theme.LightGreen.AppBarOverlay" parent="AppTheme.AppBarOverlay" />
+    <style name="Theme.LightGreen.PopupOverlay" parent="AppTheme.PopupOverlay" />
+
+    <!-- amber -->
+    <style name="Theme.Amber" parent="AppTheme">
+        <item name="colorPrimary">@color/amber_600</item>
+        <item name="colorPrimaryDark">@color/amber_900</item>
+    </style>
+    <style name="Theme.Amber.NoActionBar" parent="Theme.Amber">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Amber.ActionBar" parent="Theme.Amber">
+        <item name="android:colorBackground">@color/amber_600</item>
+        <item name="android:colorBackgroundCacheHint">@color/amber_400</item>
+    </style>
+    <style name="Theme.Amber.AppBarOverlay" parent="AppTheme.AppBarOverlay" />
+    <style name="Theme.Amber.PopupOverlay" parent="AppTheme.PopupOverlay" />
+
+    <!-- brown -->
+    <style name="Theme.Brown" parent="AppTheme">
+        <item name="colorPrimary">@color/brown_600</item>
+        <item name="colorPrimaryDark">@color/brown_900</item>
+    </style>
+    <style name="Theme.Brown.NoActionBar" parent="Theme.Brown">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Brown.ActionBar" parent="Theme.Brown">
+        <item name="android:colorBackground">@color/brown_600</item>
+        <item name="android:colorBackgroundCacheHint">@color/brown_400</item>
+    </style>
+    <style name="Theme.Brown.AppBarOverlay" parent="AppTheme.AppBarOverlay" />
+    <style name="Theme.Brown.PopupOverlay" parent="AppTheme.PopupOverlay" />
+
+    <!-- purple -->
+    <style name="Theme.Purple" parent="AppTheme">
+        <item name="colorPrimary">@color/purple_600</item>
+        <item name="colorPrimaryDark">@color/purple_900</item>
+    </style>
+    <style name="Theme.Purple.NoActionBar" parent="Theme.Purple">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Purple.ActionBar" parent="Theme.Purple">
+        <item name="android:colorBackground">@color/purple_600</item>
+        <item name="android:colorBackgroundCacheHint">@color/purple_400</item>
+    </style>
+    <style name="Theme.Purple.AppBarOverlay" parent="AppTheme.AppBarOverlay" />
+    <style name="Theme.Purple.PopupOverlay" parent="AppTheme.PopupOverlay" />
+
+    <!-- blue -->
+    <style name="Theme.Blue" parent="AppTheme">
+        <item name="colorPrimary">@color/blue_600</item>
+        <item name="colorPrimaryDark">@color/blue_900</item>
+    </style>
+    <style name="Theme.Blue.NoActionBar" parent="Theme.Blue">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Blue.ActionBar" parent="Theme.Blue">
+        <item name="android:colorBackground">@color/blue_600</item>
+        <item name="android:colorBackgroundCacheHint">@color/blue_400</item>
+    </style>
+    <style name="Theme.Blue.AppBarOverlay" parent="AppTheme.AppBarOverlay" />
+    <style name="Theme.Blue.PopupOverlay" parent="AppTheme.PopupOverlay" />
+
+    <!-- teal -->
+    <style name="Theme.Teal" parent="AppTheme">
+        <item name="colorPrimary">@color/teal_600</item>
+        <item name="colorPrimaryDark">@color/teal_900</item>
+    </style>
+    <style name="Theme.Teal.NoActionBar" parent="Theme.Teal">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Teal.ActionBar" parent="Theme.Teal">
+        <item name="android:colorBackground">@color/teal_600</item>
+        <item name="android:colorBackgroundCacheHint">@color/teal_400</item>
+    </style>
+    <style name="Theme.Teal.AppBarOverlay" parent="AppTheme.AppBarOverlay" />
+    <style name="Theme.Teal.PopupOverlay" parent="AppTheme.PopupOverlay" />
+
+    <!-- lime -->
+    <style name="Theme.Lime" parent="AppTheme">
+        <item name="colorPrimary">@color/lime_600</item>
+        <item name="colorPrimaryDark">@color/lime_900</item>
+    </style>
+    <style name="Theme.Lime.NoActionBar" parent="Theme.Lime">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Lime.ActionBar" parent="Theme.Lime">
+        <item name="android:colorBackground">@color/lime_600</item>
+        <item name="android:colorBackgroundCacheHint">@color/lime_400</item>
+    </style>
+    <style name="Theme.Lime.AppBarOverlay" parent="AppTheme.AppBarOverlay" />
+    <style name="Theme.Lime.PopupOverlay" parent="AppTheme.PopupOverlay" />
+
+    <!-- orange -->
+    <style name="Theme.Orange" parent="AppTheme">
+        <item name="colorPrimary">@color/orange_600</item>
+        <item name="colorPrimaryDark">@color/orange_900</item>
+    </style>
+    <style name="Theme.Orange.NoActionBar" parent="Theme.Orange">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Orange.ActionBar" parent="Theme.Orange">
+        <item name="android:colorBackground">@color/orange_600</item>
+        <item name="android:colorBackgroundCacheHint">@color/orange_400</item>
+    </style>
+    <style name="Theme.Orange.AppBarOverlay" parent="AppTheme.AppBarOverlay" />
+    <style name="Theme.Orange.PopupOverlay" parent="AppTheme.PopupOverlay" />
+
+    <!-- grey -->
+    <style name="Theme.Grey" parent="AppTheme">
+        <item name="colorPrimary">@color/grey_600</item>
+        <item name="colorPrimaryDark">@color/grey_900</item>
+    </style>
+    <style name="Theme.Grey.NoActionBar" parent="Theme.Grey">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Grey.ActionBar" parent="Theme.Grey">
+        <item name="android:colorBackground">@color/grey_600</item>
+        <item name="android:colorBackgroundCacheHint">@color/grey_400</item>
+    </style>
+    <style name="Theme.Grey.AppBarOverlay" parent="AppTheme.AppBarOverlay" />
+    <style name="Theme.Grey.PopupOverlay" parent="AppTheme.PopupOverlay" />
+
+    <!-- fullscreen -->
+    <style name="Theme.Fullscreen" parent="AppTheme">
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <!-- transparent -->
+    <style name="Theme.Transparent.NoActionBar" parent="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

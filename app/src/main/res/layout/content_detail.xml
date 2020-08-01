@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.DetailActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardIcon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="3dp">
+
+                <ProgressBar
+                    android:id="@+id/progress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/imgFull"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TableRow
+                android:layout_marginTop="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/tvwType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:text="Type"/>
+
+                <TextView
+                    android:id="@+id/tvwSubType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="SubType"
+                    android:textColor="@color/grey_400"
+                    android:layout_marginStart="8dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/tvwAbilityType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AbilityType"
+                    android:textColor="@color/grey_500"/>
+
+                <TextView
+                    android:id="@+id/tvwAbilityName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginStart="8dp"
+                    android:text="AbilityName"/>
+
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tvwAbilityText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                android:text="AbilityText"/>
+
+            <TextView
+                android:id="@+id/tvwRules"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:text="Rules"/>
+
+            <TextView
+                android:id="@+id/tvwText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                android:text="Text"/>
+
+            <TextView
+                android:id="@+id/tvwText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                android:text="Text"/>
+
+            <TextView
+                android:id="@+id/tvwText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                android:text="Text"/>
+
+            <TableRow
+                android:id="@+id/rowAttack1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center_vertical" >
+
+                <ImageView
+                    android:id="@+id/imgAttackCost11"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/imgAttackCost12"
+                    android:layout_marginStart="8dp"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/imgAttackCost13"
+                    android:layout_marginStart="8dp"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tvwAttackName1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginStart="8dp"
+                    android:text="AttackName1"/>
+
+                <TextView
+                    android:id="@+id/tvwAttackDamage1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginStart="8dp"
+                    android:text="| 30"/>
+
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tvwAttackText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                android:text="tvwAttackText1"/>
+
+            <TableRow
+                android:id="@+id/rowAttack2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_vertical" >
+
+                <ImageView
+                    android:id="@+id/imgAttackCost21"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/imgAttackCost22"
+                    android:layout_marginStart="8dp"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/imgAttackCost23"
+                    android:layout_marginStart="8dp"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tvwAttackName2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginStart="8dp"
+                    android:text="AttackName1"/>
+
+                <TextView
+                    android:id="@+id/tvwAttackDamage2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginStart="8dp"
+                    android:text="| 30"/>
+
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tvwAttackText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                android:text="tvwAttackText1"/>
+
+            <TableRow
+                android:id="@+id/rowAttack3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_vertical" >
+
+                <ImageView
+                    android:id="@+id/imgAttackCost31"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/imgAttackCost32"
+                    android:layout_marginStart="8dp"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/imgAttackCost33"
+                    android:layout_marginStart="8dp"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tvwAttackName3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginStart="8dp"
+                    android:text="AttackName1"/>
+
+                <TextView
+                    android:id="@+id/tvwAttackDamage3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginStart="8dp"
+                    android:text="| 30"/>
+
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tvwAttackText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                android:text="tvwAttackText1"/>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="8dp" >
+
+                <LinearLayout
+                    android:id="@+id/linWeakness"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:layout_marginTop="10dp"
+                        android:text="WEAKNESS"/>
+
+                    <TableRow
+                        android:id="@+id/rowWeakness1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp" >
+
+                        <ImageView
+                            android:id="@+id/imgWeakness1"
+                            android:src="@mipmap/ic_launcher"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/tvwWeakness1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:layout_marginStart="8dp"
+                            android:text="| 30"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/rowWeakness2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp" >
+
+                        <ImageView
+                            android:id="@+id/imgWeakness2"
+                            android:src="@mipmap/ic_launcher"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/tvwWeakness2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:layout_marginStart="8dp"
+                            android:text="| 30"/>
+
+                    </TableRow>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linResistance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="14dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:layout_marginTop="10dp"
+                        android:text="RESISTANCE"/>
+
+                    <TableRow
+                        android:id="@+id/rowResistance1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:layout_gravity="center" >
+
+                        <ImageView
+                            android:id="@+id/imgResistance1"
+                            android:src="@mipmap/ic_launcher"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/tvwResistance1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:layout_marginStart="8dp"
+                            android:text="| 30"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/rowResistance2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:layout_gravity="center" >
+
+                        <ImageView
+                            android:id="@+id/imgResistance2"
+                            android:src="@mipmap/ic_launcher"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/tvwResistance2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:layout_marginStart="8dp"
+                            android:text="| 30"/>
+
+                    </TableRow>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linRetreat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="14dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:layout_marginTop="10dp"
+                        android:text="RETREAT COST"/>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:layout_gravity="center" >
+
+                        <ImageView
+                            android:id="@+id/imgRetreat1"
+                            android:src="@mipmap/ic_launcher"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <ImageView
+                            android:id="@+id/imgRetreat2"
+                            android:src="@mipmap/ic_launcher"
+                            android:layout_marginStart="4dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </TableRow>
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="24dp" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="ARTIST"/>
+
+                    <TextView
+                        android:id="@+id/tvwArtist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:lines="1"
+                        android:ellipsize="end"
+                        android:layout_marginTop="8dp"
+                        android:text="Artist"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="14dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="RARITY"/>
+
+                    <TextView
+                        android:id="@+id/tvwRarity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:layout_marginTop="8dp"
+                        android:lines="1"
+                        android:ellipsize="end"
+                        android:text="Rarity"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="14dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="SET"/>
+
+                    <TextView
+                        android:id="@+id/tvwSet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:layout_marginTop="8dp"
+                        android:lines="1"
+                        android:ellipsize="end"
+                        android:text="Set"/>
+
+                </LinearLayout>
+
+            </TableRow>
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
